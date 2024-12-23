@@ -22,3 +22,26 @@ nav ul li {
 .logo {
   width: 180px;
 }
+
+.dark-nav {
+  background: #212fa0;
+  transition: 0.5s;
+}
+
+/* @media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+nav{
+  padding: 15px 0;
+}
+nav ul{
+
+}
+} */

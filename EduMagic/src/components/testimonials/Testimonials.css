@@ -1,0 +1,82 @@
+.testimonials {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    height: 300px; /* Set fixed height for testimonials */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .next-icon,
+  .back-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #212fa0;
+  }
+  
+  .next-icon {
+    left: auto;
+    right: 0;
+  }
+  
+  .slider {
+    overflow: hidden;
+    height: 100%; /* Match parent height */
+  }
+  
+  .slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    height: 100%; /* Ensure the height matches the slider */
+  }
+  
+  .slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Match parent height */
+  }
+  
+  .slide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
+    height: 100%; /* Match parent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .slide img {
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212fa0;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .user-info h3 {
+    color: #212fa0;
+  }
+  
